@@ -1,6 +1,6 @@
 ## Javascript-Quiz-App
 
--I created the quiz application using vanilla js.
+- I created the quiz application using vanilla js.
 
 ## Screenshots:
 

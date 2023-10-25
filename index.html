@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--     Start Button-->
+    <div class="start-btn">
+      <button>Start</button>
+    </div>
+    <!-- Quiz Box -->
+    <div class="quiz-box">
+      <header>
+        <div class="quiz-text"></div>
+        <div class="options">
+          <ul>
+            <li class="answer" id="a">
+              <option class="option">A</option>
+              <p class="text-a"></p>
+            </li>
+            <li class="answer" id="b">
+              <option class="option">B</option>
+              <p class="text-b"></p>
+            </li>
+            <li class="answer" id="c">
+              <option class="option">C</option>
+              <p class="text-c"></p>
+            </li>
+            <li class="answer" id="d">
+              <option class="option">D</option>
+              <p class="text-d"></p>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <footer>
+        <div class="question-counter"></div>
+        <button class="next-btn">Next</button>
+      </footer>
+    </div>
+    <!-- Finish -->
+    <div class="finish">
+      <div class="score">
+        <p class="score-text"></p>
+        <div class="buttons">
+          <button class="result">Result</button>
+          <button class="restart">Restart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Result Page -->
+    <div class="result-page"></div>
+
+    <script src="./js/questions.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

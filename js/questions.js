@@ -1,0 +1,48 @@
+// creating an array and passing the number, questions, options, and answers
+let questions = [
+  {
+    numb: 1,
+    question: 'What does HTML stand for?',
+    answer: 'b',
+    a: 'Hyper Text Preprocessor',
+    b: 'Hyper Text Markup Language',
+    c: 'Hyper Text Multiple Language',
+    d: 'Hyper Tool Multi Language',
+  },
+  {
+    numb: 2,
+    question: 'What does CSS stand for?',
+    answer: 'd',
+    a: 'Common Style Sheet',
+    b: 'Colorful Style Sheet',
+    c: 'Computer Style Sheet',
+    d: 'Cascading Style Sheet',
+  },
+  {
+    numb: 3,
+    question: 'What does PHP stand for?',
+    answer: 'a',
+    a: 'Hypertext Preprocessor',
+    b: 'Hypertext Programming',
+    c: 'Hypertext Preprogramming',
+    d: 'Hometext Preprocessor',
+  },
+  {
+    numb: 4,
+    question: 'What does SQL stand for?',
+    answer: 'd',
+    a: 'Stylish Question Language',
+    b: 'Stylesheet Query Language',
+    c: 'Statement Question Language',
+    d: 'Structured Query Language',
+  },
+  {
+    numb: 5,
+    question: 'What does XML stand for?',
+    answer: 'a',
+    a: 'eXtensible Markup Language',
+    b: 'eXecutable Multiple Language',
+    c: 'eXTra Multi-Program Language',
+    d: 'eXamine Multiple Language',
+  },
+];

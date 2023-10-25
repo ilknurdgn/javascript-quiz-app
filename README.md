@@ -19,5 +19,7 @@
 <p align="center" style="padding: 10px">
 <img alt="" src="./ss/5.png" width="90%">
 
+## Quiz result screen
+
 <p align="center" style="padding: 10px">
 <img alt="" src="./ss/6.png" width="90%">
